@@ -57,7 +57,7 @@ while "Seguir" in seguidores:
 df = pd.DataFrame(zip(seguidores),columns=['seguidores'])
 print(df)
 #criando um excel com os seguidores
-df.to_excel("teste.xlsx")
+df.to_excel("seguidores.xlsx")
 
 
 
